@@ -36,7 +36,7 @@ tqvp_fir_filter user_peripheral (
 
   // The peripheral under test.
   // **** Change the module name from tqvp_example to match your peripheral. ****
-  tqvp_example user_peripheral(
+  tqvp_fir user_peripheral(
     .clk(clk),
     .rst_n(rst_reg_n),
     .ui_in(ui_in_sync),
